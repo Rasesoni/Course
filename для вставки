@@ -3,3 +3,6 @@ deb https://dl.astralinux.ru/astra/frozen/1.7_x86-64/1.7.3/repository-update/ 1.
 mkdir -p {DBMS/{MongoDB,PostgreSQL,Redis},AstraLinux,Cisco/routers/{2800,2900},network/{process,programs}}
 cd ~/network
 cat process/first_file.txt programs/second_file.txt > bigfile
+ln -s ~/Cisco/routers/ARustam my_router
+file my_router
+
