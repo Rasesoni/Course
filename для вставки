@@ -5,4 +5,5 @@ cd ~/network
 cat process/first_file.txt programs/second_file.txt > bigfile
 ln -s ~/Cisco/routers/ARustam my_router
 file my_router
-
+find ~/DBMS/MongoDB/ -type f -exec cp {} ~/DBMS/PostgreSQL/ \;
+ls -la ~/DBMS/PostgreSQL/
