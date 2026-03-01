@@ -7,3 +7,6 @@ ln -s ~/Cisco/routers/ARustam my_router
 file my_router
 find ~/DBMS/MongoDB/ -type f -exec cp {} ~/DBMS/PostgreSQL/ \;
 ls -la ~/DBMS/PostgreSQL/
+echo "Романов" > file1
+echo "Руслан" > file2
+echo "Вадимович" > file3
